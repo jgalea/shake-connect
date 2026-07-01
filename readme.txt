@@ -86,8 +86,6 @@ Yes. `wp wpshake` exposes `status`, `reset-token`, and `revoke` subcommands for 
 == Screenshots ==
 
 1. The plugin's settings page in the WordPress admin where you generate a connection token.
-2. The WPShake dashboard listing sites under management.
-3. The per-site detail view showing inventory, recommendations, and recent events.
 
 == Changelog ==
 
