@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:772px;height:250px;overflow:hidden}
+  .frame{position:relative;width:772px;height:250px;background:#08080a;overflow:hidden;font-family:'Geist',system-ui,sans-serif}
+  .aurora{position:absolute;left:-120px;top:-160px;width:620px;height:420px;border-radius:50%;
+    background:radial-gradient(closest-side,rgba(217,70,239,.34),rgba(168,85,247,.20) 55%,rgba(96,165,250,.12) 80%,transparent);
+    filter:blur(70px)}
+  .aurora2{position:absolute;right:-160px;bottom:-200px;width:520px;height:420px;border-radius:50%;
+    background:radial-gradient(closest-side,rgba(96,165,250,.16),rgba(168,85,247,.12) 60%,transparent);filter:blur(80px)}
+  .hair{position:absolute;left:56px;right:56px;height:1px;background:rgba(250,250,249,.10)}
+  .hair.t{top:26px}.hair.b{bottom:30px}
+  .wrap{position:absolute;left:56px;top:52px;right:56px}
+  .mark{display:flex;align-items:center;gap:11px;margin-bottom:22px}
+  .dot{position:relative;width:16px;height:16px}
+  .dot i{position:absolute;border-radius:50%}
+  .dot .g{inset:-8px;background:rgba(217,70,239,.35)}
+  .dot .c{inset:1px;background:#d946ef}
+  .mark span{font-size:20px;font-weight:700;color:#fafaf9;letter-spacing:-.01em}
+  h1{font-size:56px;font-weight:700;color:#fafaf9;letter-spacing:-.03em;line-height:1.02}
+  h1 em{font-style:italic;font-weight:500;
+    background:linear-gradient(180deg,#d946ef,#f0abfc);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tag{position:absolute;left:56px;bottom:40px;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;color:#a3a3a3;letter-spacing:2px}
+  .wave{position:absolute;right:56px;bottom:34px;opacity:.9}
+</style></head>
+<body><div class="frame">
+  <div class="aurora"></div><div class="aurora2"></div>
+  <div class="hair t"></div><div class="hair b"></div>
+  <div class="wrap">
+    <div class="mark"><div class="dot"><i class="g"></i><i class="c"></i></div><span>WPShake</span></div>
+    <h1>Shake <em>Connect</em></h1>
+  </div>
+  <div class="tag">// SITE CONNECTOR FOR THE WPSHAKE DASHBOARD</div>
+  <svg class="wave" width="150" height="46" viewBox="0 0 150 46" fill="none">
+    <defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d946ef"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+    <path d="M2 23 L26 23 L40 6 L58 40 L75 12 L92 34 L108 23 L148 23" stroke="url(#w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</div></body></html>
